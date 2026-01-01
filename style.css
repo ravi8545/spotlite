@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'helvetica neue';
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1063851048/photo/christmas-nature.jpg?s=612x612&w=is&k=20&c=yH-rNGDOT3537lNg5CgbVd0Ri9T8S2ERvut9kuEaMd8=");
+    background-size: cover;
+}
+
+:root {
+    --red: rgb(166, 46, 46);
+    --x: 400px;
+    --y: 400px;
+
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    /* background:linear-gradient(in oklab to right, white, red, purple); */
+    background: radial-gradient(150px at var(--x) var(--y), rgba(255, 255, 255, 0), rgb(0, 0, 0, 0.8));
+}
