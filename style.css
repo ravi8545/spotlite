@@ -28,5 +28,5 @@ body {
     width: 100%;
     border: 1px solid white;
     /* background:linear-gradient(in oklab to right, white, red, purple); */
-    background: radial-gradient(150px at var(--x) var(--y), rgba(255, 255, 255, 0), rgb(0, 0, 0, 0.8));
+    background: radial-gradient(150px at var(--x) var(--y), rgba(255, 255, 255, 0), rgb(0, 0, 0, 0.9));
 }
