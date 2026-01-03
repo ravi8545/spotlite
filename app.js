@@ -15,9 +15,9 @@ function randomText(){
     
     para.innerText=str;
  
-    iteration += 1;
+    iteration += 0.2;
 
 
 
 }
-setInterval(randomText, 1000);
+setInterval(randomText, 20);
